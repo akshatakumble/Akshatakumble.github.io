@@ -1,0 +1,11 @@
+Akshata@DESKTOP-420E508 MINGW64 /c/Akshata/Docker/Docker Toolbox
+$ docker pull nginx
+Using default tag: latest
+latest: Pulling from library/nginx
+Digest: sha256:9688d0dae8812dd2437947b756393eb0779487e361aa2ffbc3a529dca61f102c
+Status: Image is up to date for nginx:latest
+docker.io/library/nginx:latest
+
+Akshata@DESKTOP-420E508 MINGW64 /c/Akshata/Docker/Docker Toolbox
+$ docker run -dit --rm --name nginx -p 9001:80 nginx
+0a4d9b36fe08fbee6ccd35919c7d78c7232d91ebe8e93e1d3e1347572d7a856e
